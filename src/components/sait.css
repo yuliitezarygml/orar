@@ -1,0 +1,240 @@
+.App {
+    background-image: url('./photo/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.alert {
+    background-color: #25975A;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.button-group {
+       display: flex;
+     justify-content: space-between;
+     margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #25975A;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: none;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+ background-color: white;
+    color: black;}
+
+.btn.active {
+    background-color: #188d66;
+    color: white;
+}
+
+.search {
+    margin-bottom: 10px;
+}
+.search-container {
+    min-width: 150px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.search-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.clear-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #666;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 4px;
+}
+
+.orar {
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: fit-content;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 14px;
+    table-layout: fixed;
+}
+
+th, td {
+    border: 1px solid #888;
+    width: 40px;
+    height: 30px;
+    padding: 0;
+}
+
+th {
+    background-color: #2e7d32;
+    color: white;
+    font-weight: normal;
+}
+
+th:first-child {
+    width: 70px;
+    background-color: #1b5e20;
+    color: white;
+}
+
+.text {
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.color-erde {
+    background-color: #25975A;
+}
+.white-bg {
+    background-color: white;
+
+}
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90%;
+    max-width: 1400px;
+    margin: 50px auto;
+    gap: 40px;
+}
+.center-text {
+    text-align: center;
+}
+
+
+.container.right {
+    text-align: center;
+}
+
+.university-header {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.university-title {
+    color: #00582f;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.table2 {
+    width: 90%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.table2 th {
+    width: 10px;
+    height: 15px;
+    background: #2e7d32;
+    color: white;
+    padding: 8px 0;
+    border: 1px solid #999;
+}
+
+.table2 td {
+    border: 1px solid #999;
+    background: white;
+    text-align: left;
+    padding: 10px;
+    line-height: 1.4;
+    text-align: center;
+}
+.legend {
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.legenda-item {
+    margin: 0 10px;
+    font-size: 12px;
+}
+
+.text {
+    color: white;
+    font-weight: 900;
+}
+
+.S{background-color: red;}
+
+.title {
+    color: white;
+}
+
+input[type="text"] {
+    width: 350px;
+    text-align: center;
+    padding: 5px;
+    margin-right: 10px;
+
+}
+
+.name-list {
+    width: 350px;
+    border: 1px solid #ddd;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background: white;
+    font-family: "Georgia", serif;
+}
+
+.name-list li {
+    padding: 6px 10px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+
+.A {
+    background-color: white;
+}
+
+.services {
+        background:#edfbf6;
+        color:#32d296
+
+}
